@@ -5,7 +5,7 @@ public class AudioController : MonoBehaviour
 {
     [Header("Audio Sources")]
     public AudioSource musicSource; // loop de fondo
-    public AudioSource sfxSource;   // sonido de botón (usa PlayOneShot o clip)
+    public AudioSource sfxSource;   // sonido de botón 
 
     [Header("UI Sound")]
     public Slider musicSlider;

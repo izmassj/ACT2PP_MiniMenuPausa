@@ -11,33 +11,43 @@ public class PauseController : MonoBehaviour
     [Header("UI Animations")]
     public Animator animatorPause;
     public CanvasGroup pauseCanvasGroup; // asignar canvas principal del menú
-    //public float fadeDuration = 0.25f;
+    public GameObject pauseUIGroup;
+
     bool isPaused = false;
 
     private InputAction activatePause;
 
+    private void Awake()
+    {
+        playerInputActionAsset.Enable();
+        activatePause = playerInputActionAsset.FindActionMap("Gameplay").FindAction("Pause");
+    }
+
     private void Start()
     {
-        activatePause = playerInputActionAsset.FindActionMap("Gameplay").FindAction("Pause");
+        pauseUIGroup.SetActive(false);
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) TogglePause();
+        if (activatePause.triggered) TogglePause();
     }
 
     public void TogglePause()
     {
-        if (isPaused) StartCoroutine(Unpause()); else StartCoroutine(Pause());
+        if (isPaused) 
+            StartCoroutine(Unpause()); 
+        else 
+            StartCoroutine(Pause());
     }
 
     IEnumerator Pause()
     {
+        pauseUIGroup.SetActive(true);
         isPaused = true;
         animatorPause.SetTrigger("Change");
 
-        yield return null;
-        yield return new WaitUntil(() => animatorPause.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f);
+        yield return new WaitForSecondsRealtime(1f);
 
         Time.timeScale = 0f;
     }
@@ -48,9 +58,10 @@ public class PauseController : MonoBehaviour
         Time.timeScale = 1f; 
         animatorPause.SetTrigger("Change");
 
-        yield return new WaitUntil(() => animatorPause.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f);
+        yield return new WaitForSecondsRealtime(1f);
 
         isPaused = false;
+        pauseUIGroup.SetActive(false);
     }
 
 }
