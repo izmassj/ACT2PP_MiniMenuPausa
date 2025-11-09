@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 18060144640
-    m_Localized: Localization
+    m_Localized: Pause Menu
     m_Metadata:
       m_Items: []
   - m_Id: 358289502208
-    m_Localized: Access to data
+    m_Localized: Interfaces
     m_Metadata:
       m_Items: []
   - m_Id: 500342190080
