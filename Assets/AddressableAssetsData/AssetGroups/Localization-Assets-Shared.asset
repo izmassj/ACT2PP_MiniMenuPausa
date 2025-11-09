@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1041eac46a1de4c48a1c0639ff7ab962
+  m_SerializeEntries:
+  - m_GUID: 6659dd308e1f87e4ba04c2ac58f54116
+    m_Address: Assets/Localization/LocalizationTables/LocalizationTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7393aca26e661ad4e8b2cb544dfdc628
+    m_Address: Assets/Localization/LocalizationStrings/UserPreferences/UIUserPreferences
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74c35ec9423525d40a6be14f23291252
+    m_Address: Assets/Localization/LocalizationStrings/Settings/UiTextSettings Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 802246ba92924664eaa9270b33a76347
+    m_Address: Assets/Localization/LocalizationStrings/FileLoading/UiTextFileLoading
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c58809c5da0010d45b15f2a4823af2fa
+    m_Address: Assets/Localization/LocalizationStrings/Menu/Menu Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: ba936c9ac6467f342b47a0dac187f12d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 052153307e9e53048bafeb079219a28a, type: 2}
+    - {fileID: 11400000, guid: b60188a8441bcee44a962ade8a26ac10, type: 2}

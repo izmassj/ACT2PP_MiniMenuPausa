@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UiTextFileLoading Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UiTextFileLoading
+  m_TableCollectionNameGuidString: 802246ba92924664eaa9270b33a76347
+  m_Entries:
+  - m_Id: 47185391616
+    m_Key: ID_CURRNUMB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78781083648
+    m_Key: ID_CURRBALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147739635712
+    m_Key: ID_USERNAMEBALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 196477448192
+    m_Key: ID_SAVECSV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230946238464
+    m_Key: ID_SAVEXML
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261690486784
+    m_Key: ID_SAVEJSON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297551785984
+    m_Key: 'ID_USERPATH '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336625922048
+    m_Key: ID_LOADCSV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364526432256
+    m_Key: ID_LOADXML
+    m_Metadata:
+      m_Items: []
+  - m_Id: 396352811008
+    m_Key: ID_LOADJSON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1457528500224
+    m_Key: ID_PATHTXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1497919647744
+    m_Key: ID_NAMETXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2583695906566144
+    m_Key: ID_SAVEBIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2583957568221184
+    m_Key: ID_LOADBIN
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1069668988625092723
+  references:
+    version: 2
+    RefIds:
+    - rid: 1069668988625092723
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1760362310909

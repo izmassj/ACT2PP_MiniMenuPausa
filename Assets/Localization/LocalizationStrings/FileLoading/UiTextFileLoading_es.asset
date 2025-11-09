@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UiTextFileLoading_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 802246ba92924664eaa9270b33a76347, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 47185391616
+    m_Localized: 'Numero de rebotes:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78781083648
+    m_Localized: 'Nombre de la pelota actual:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147739635712
+    m_Localized: 'Nombre de la pelota:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 196477448192
+    m_Localized: Guardar Info (CSV)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230946238464
+    m_Localized: Guardar Info (XML)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261690486784
+    m_Localized: Guardar Info (JSON)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297551785984
+    m_Localized: 'Ruta para archivo:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336625922048
+    m_Localized: Carregar Info (CSV)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364526432256
+    m_Localized: Carregar Info (XML)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 396352811008
+    m_Localized: Carregar Info (JSON)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1457528500224
+    m_Localized: Ruta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1497919647744
+    m_Localized: Nombre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2583695906566144
+    m_Localized: Guardar Info (BIN)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2583957568221184
+    m_Localized: Cargar Info (BIN)
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

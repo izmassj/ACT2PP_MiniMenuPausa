@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db626ad063b13545924a9839ac5fa83, type: 3}
+  m_Name: LocalizationTableImages
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 6659dd308e1f87e4ba04c2ac58f54116, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 18b05c4f7a4e7b74b847054a9952cb3d, type: 2}
+  - {fileID: 11400000, guid: fe6e8ca66cd3d0e48a75add3145bffa5, type: 2}
+  - {fileID: 11400000, guid: 10366532ecfb48248a2d5555157df433, type: 2}
+  m_Extensions: []
+  m_Group: Asset Table
+  references:
+    version: 2
+    RefIds: []

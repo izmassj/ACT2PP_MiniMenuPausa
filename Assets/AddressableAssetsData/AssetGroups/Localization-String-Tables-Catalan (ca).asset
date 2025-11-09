@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Catalan (ca)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Catalan (ca)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4466139564dec3c46ae525c68e8f0667
+  m_SerializeEntries:
+  - m_GUID: 014d6fc1b4f74934cb34f9f4d51ad64d
+    m_Address: UiTextFileLoading_ca
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a9e6c711ab8e3f4a89a171f8145f024
+    m_Address: UIUserPreferences_ca
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b7963c25d97b3843b46699f779cbb6b
+    m_Address: UiTextMenu_ca
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2a5a5a9647973841817f9bbef8ba8bd
+    m_Address: UiTextSettings_ca
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: ba936c9ac6467f342b47a0dac187f12d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8ef01dff0f0a2ee41bd58af0c6912abe, type: 2}
+    - {fileID: 11400000, guid: 675c7a7351157254a8071078e38a306b, type: 2}
